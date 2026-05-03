@@ -1,0 +1,23 @@
+{
+  "dockerfile_lines": [],
+  "graphs": {
+    "section_scope_research_agent": "./src/research_agent_scope.py:scope_research_agent",
+    "section_researcher_agent": "./src/research_agent.py:researcher_agent",
+    "section_agent_mcp": "./src/research_agent_mcp.py:agent_mcp",
+    "section_supervisor_agent": "./src/multi_agent_supervisor.py:supervisor_agent",
+    "full_deep_researcher_agent": "./src/research_agent_full.py:deep_researcher_agent"
+  },
+  "env": "./.env",
+  "python_version": "3.13",
+  "dependencies": [
+    "langgraph",
+    "langchain-core",
+    "langchain-anthropic",
+    "langchain-mcp-adapters",
+    "tavily-python",
+    "pydantic",
+    "rich",
+    "typing-extensions",
+    "python-dotenv"
+  ]
+}
